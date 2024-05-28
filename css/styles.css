@@ -58,6 +58,39 @@ img {
     background: linear-gradient(0deg, rgba(251,223,233,1) 11%, rgba(222,77,134,0.4074404761904762) 100%), url(../img/img_header.jpg);
     background-position: center center;
     background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.header__logo1 {
+    max-width: 20rem;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.header__logo2 {
+    max-width: 30rem;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.nav {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+}
+
+
+
+/**
+.header {
+    background: linear-gradient(0deg, rgba(251,223,233,1) 11%, rgba(222,77,134,0.4074404761904762) 100%), url(../img/img_header.jpg);
+    background-position: center center;
+    background-size: cover;
+    border: none;
     display: flex;
     gap: 2rem;
     justify-content: space-between;
@@ -93,3 +126,5 @@ img {
     padding: 0 2rem;
     transition: .4s ease;
 }
+
+*/
