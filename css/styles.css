@@ -86,26 +86,6 @@ img {
 
 
 /**
-.header {
-    background: linear-gradient(0deg, rgba(251,223,233,1) 11%, rgba(222,77,134,0.4074404761904762) 100%), url(../img/img_header.jpg);
-    background-position: center center;
-    background-size: cover;
-    border: none;
-    display: flex;
-    gap: 2rem;
-    justify-content: space-between;
-    padding: 2rem;
-}
-
-
-.header__logos {
-    max-width: 20rem;
-}
-
-.header__logos--logo1 {
-    margin-bottom: 2rem;
-}
-
 .nav {
     display: flex;
     flex-direction: column;
