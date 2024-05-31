@@ -33,8 +33,9 @@ body {
 a {
     text-decoration: none;
 }
-h1, h2, h3 h4 {
+h1, h2, h3, h4 {
     font-family: var(--fontheading);
+    color: var(--primary);
 }
 h1 {
     font-size: 4.8rem;
@@ -55,7 +56,7 @@ img {
 /** Header **/
 
 .header {
-    background: linear-gradient(0deg, rgba(251,223,233,1) 11%, rgba(222,77,134,0.4074404761904762) 100%), url(../img/img_header.jpg);
+    background: linear-gradient(0deg, rgba(251,223,233,1) 11%, rgba(222,77,134,0.4074404761904762) 100%), url(../img/img_header2.jpg);
     background-position: center center;
     background-size: cover;
     display: grid;
@@ -83,28 +84,14 @@ img {
     grid-row: 2 / 3;
 }
 
-
-
-/**
-.nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1.2rem;
-}
-
 .nav__link {
     color: var(--primary);
-    font-weight: bold;
-    font-size: 1.5rem;
-    padding: 0 2rem;
+    font-family: var(--fontheading);
+    font-size: 2.3rem;
+    padding: 1rem;
 }
 
-.nav__link:hover {
-    background-color: rgba(251, 223, 233, .5);
-    border-radius: .5rem;
-    padding: 0 2rem;
-    transition: .4s ease;
+.nav__link:hover, .nav__link:focus {
+background-color: var(--primary);
+color: var(--secondary);
 }
-
-*/
